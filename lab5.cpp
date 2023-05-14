@@ -39,8 +39,8 @@ int main()
 	}
 	//second_branch 1: change 1;
 	//second_branch 2: change 2;
-	//second_branch 3: change 3 in second_branch; //master and second_branch have the same priority
-	//second_branch 4
+	//second_branch 3: change 3;
+	//second_branch 4: change 4;
 	for (i = 0; i < M; i++) {
 		if (isalnum(text[i + 1][0])) {
 			_strrev(text[i]);
