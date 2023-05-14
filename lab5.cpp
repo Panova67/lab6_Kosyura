@@ -8,8 +8,8 @@ int main()
 {
 	//master1: change 1;
 	//master2: change 2;
-	//master3: change 3 in master; //third_branch priority
-	//master4
+	//master3: change 3;
+	//master4: change 4;
 	int i, M, sum;
 	sum = 0;
 	char string, text[20][81];
