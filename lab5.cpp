@@ -8,7 +8,7 @@ int main()
 {
 	//master1
 	//master2
-	//master3
+	//master3: change 3 in third_branch; //third_branch priority
 	//master4
 	int i, M, sum;
 	sum = 0;
@@ -58,8 +58,8 @@ int main()
 			strcat_s(DOC, text[i + 1]);
 	}
 	//third_branch 1: change 1;
-	//third_branch 2: change 2 in third_branch; //second_branch priority
-	//third_branch 3
+	//third_branch 2: change 2;
+	//third_branch 3: change 3;
 	//third_branch 4
 	DOC[sum] = '\0';
 	char COD[1621] = "";
