@@ -6,6 +6,10 @@
 
 int main()
 {
+	//master1
+	//master2
+	//master3
+	//master4
 	int i, M, sum;
 	sum = 0;
 	char string, text[20][81];
@@ -33,7 +37,10 @@ int main()
 	for (i = 0; i < M; i++) {
 		sum += strlen(text[i]);
 	}
-
+	//second_branch 1
+	//second_branch 2
+	//second_branch 3
+	//second_branch 4
 	for (i = 0; i < M; i++) {
 		if (isalnum(text[i + 1][0])) {
 			_strrev(text[i]);
@@ -50,7 +57,10 @@ int main()
 			strcat_s(DOC, text[i]);
 			strcat_s(DOC, text[i + 1]);
 	}
-	
+	//third_branch 1
+	//third_branch 2
+	//third_branch 3
+	//third_branch 4
 	DOC[sum] = '\0';
 	char COD[1621] = "";
 	strcpy(COD, DOC);
