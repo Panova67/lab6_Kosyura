@@ -8,7 +8,7 @@ int main()
 {
 	//master1: change 1;
 	//master2: change 2;
-	//master3
+	//master3: change 3 in master; //third_branch priority
 	//master4
 	int i, M, sum;
 	sum = 0;
@@ -39,7 +39,7 @@ int main()
 	}
 	//second_branch 1
 	//second_branch 2
-	//second_branch 3: change 2 in master; //master and second_branch have the same priority
+	//second_branch 3
 	//second_branch 4
 	for (i = 0; i < M; i++) {
 		if (isalnum(text[i + 1][0])) {
