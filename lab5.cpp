@@ -39,7 +39,7 @@ int main()
 	}
 	//second_branch 1: change 1;
 	//second_branch 2: change 2;
-	//second_branch 3
+	//second_branch 3: change 3 in second_branch; //master and second_branch have the same priority
 	//second_branch 4
 	for (i = 0; i < M; i++) {
 		if (isalnum(text[i + 1][0])) {
@@ -58,7 +58,7 @@ int main()
 			strcat_s(DOC, text[i + 1]);
 	}
 	//third_branch 1
-	//third_branch 2: change 2 in second_branch; //second_branch priority
+	//third_branch 2
 	//third_branch 3
 	//third_branch 4
 	DOC[sum] = '\0';
