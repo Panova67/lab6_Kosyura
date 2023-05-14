@@ -57,7 +57,7 @@ int main()
 			strcat_s(DOC, text[i]);
 			strcat_s(DOC, text[i + 1]);
 	}
-	//third_branch 1
+	//third_branch 1: change 1;
 	//third_branch 2
 	//third_branch 3
 	//third_branch 4
